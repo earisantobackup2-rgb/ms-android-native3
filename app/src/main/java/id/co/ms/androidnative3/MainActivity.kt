@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val tv = TextView(this)
-        tv.text = "MS Android Native 3\nBuild via GitHub Actions OK"
+        tv.text = "MS Android Native 3\nBuild via GitHub Actions SUCCESS"
         tv.textSize = 18f
 
         setContentView(tv)
