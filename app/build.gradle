@@ -16,6 +16,9 @@ android {
     }
 
     buildTypes {
+        debug {
+            minifyEnabled false
+        }
         release {
             minifyEnabled false
         }
@@ -28,14 +31,6 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
-    }
-}
-
-
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
     }
 }
 
